@@ -1,0 +1,66 @@
+
+  .btn {
+    font-size: 26px !important;
+    font-weight: 410 !important;
+    line-height: 1.5 !important;
+    padding: 12px 24px !important;
+    border-radius:20px !important;
+    border: none !important;
+    background-color:  #0e4a80  !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    transition: background-color 0.2s ease !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  .btn:hover {
+    background-color: #53738f !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  .btn-primary {
+    background-color: #0e4a80 !important;
+  }
+  
+  .btn-primary:hover {
+    background-color:#53738f !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  .btn-sm {
+      font-size: 20px !important;
+    box-shadow: 0px 2px 5px #0000004d;
+  
+  }
+  
+  /* Alinear botones */
+  
+  
+  .btn-siguiente {
+   
+    float: right  !important;
+    margin-left: 20px;
+  
+  
+  }
+  
+  .btn-siguiente::after {
+    font-family: 'Font Awesome 5 Free'; 
+    content: "\f061"; 
+    float: center  !important;
+    margin-left: 20px;
+   
+  }
+  
+  .btn-volver::before {
+    font-family: 'Font Awesome 5 Free'; 
+    content: "\f060"; 
+    float: left;
+    margin-right: 20px;
+    display: block;
+  }
+  
+  
